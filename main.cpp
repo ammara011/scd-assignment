@@ -7,8 +7,8 @@ private:
 public:
     Door() : isopen(false), islocked(false) {}
  
-    bool isdooropen() const {
-        return isopen;
+    bool isdoorlocked() const {
+        return islocked;
     }
 };
 int main() {
